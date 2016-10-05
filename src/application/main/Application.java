@@ -1,4 +1,4 @@
-package main;
+package application.main;
 
 public class Application {
 	public static final Application app = new Application();

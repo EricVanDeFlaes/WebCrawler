@@ -1,4 +1,4 @@
-package main;
+package application.main;
 
 import java.util.Map.Entry;
 import java.util.ResourceBundle;
@@ -177,7 +177,7 @@ public class MainWindow extends JFrame implements ICrawlerLog, MouseListener {
 		gbc_spinLimite.insets = new Insets(0, 0, 5, 5);
 		gbc_spinLimite.gridx = 4;
 		gbc_spinLimite.gridy = 3;
-		spinLimite.setModel(new SpinnerNumberModel(new Integer(0), new Integer(0), null, new Integer(1)));
+		spinLimite.setModel(new SpinnerNumberModel(new Integer(10), new Integer(0), null, new Integer(1)));
 		panelSaisie.add(spinLimite, gbc_spinLimite);
 		
 		GridBagConstraints gbc_splitPane = new GridBagConstraints();

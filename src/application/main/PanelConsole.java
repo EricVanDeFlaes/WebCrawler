@@ -1,4 +1,4 @@
-package main;
+package application.main;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
